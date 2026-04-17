@@ -3,8 +3,8 @@ package:
   authors: ["Stefan Mach <smach@iis.ee.ethz.ch>"]
 
 dependencies:
-  common_cells: {git: "https://github.com/OpenSiliconLabs/common_cells.git",         rev: osl-dev}
-  fpu_div_sqrt_mvp: {git: "https://github.com/OpenSiliconLabs/fpu_div_sqrt_mvp.git", rev: osl-dev}
+  common_cells: {git: "git@github.com:OpenSiliconLabs/common_cells.git",         rev: osl-dev}
+  fpu_div_sqrt_mvp: {git: "git@github.com:OpenSiliconLabs/fpu_div_sqrt_mvp.git", rev: osl-dev}
 
 sources:
   - src/fpnew_pkg.sv
